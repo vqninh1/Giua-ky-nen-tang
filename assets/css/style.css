@@ -1,0 +1,141 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background: #2b3f8d;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    padding: 20px 10px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top_left {
+    padding: 0 10px;
+}
+
+.header__top_right {
+    text-align: end;
+    padding: 0 10px;
+}
+
+.header__top_login {
+    display: inline-flex;
+    justify-content: end;
+    margin: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header__top_login a {
+    color: #454563;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.header__top_language {
+    margin-left: 16px;
+}
+
+.header__with_search {
+    position: relative;
+    font-size: 1.3rem;
+    border: 1px solid #d1dee2;
+    border-radius: 2px;
+    background: #f2f7f9;
+}
+
+.header__search_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    font-size: 1.6rem;
+}
+
+.header__search_input {
+    padding: 4px 100px 5px 30px;
+    background: #f2f7f9;
+    border: none;
+}
+
+.header__search_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 4px 10px 5px 10px;
+    font-weight: 700;
+    color: #437b8f;
+    background: linear-gradient(0, #89c8e0, #cce7f1);
+    border: none;
+    text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.55);
+    
+}
+
+.app {
+
+}
+
+.app__wrapper {
+    background: url(/assets/img/bgr-slider.jpg);
+}
+
+.navbar {
+    background: #0a1f77;
+}
+
+.navbar__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.navbar__items {
+    padding-left: 14px;
+    padding-right: 14px;
+    
+}
+
+.navbar__items::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    background: #a7a8a8;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar__items_icon {
+    
+}
+
+.navbar__items_link {
+    text-decoration: none;
+    color: #fff;
+}

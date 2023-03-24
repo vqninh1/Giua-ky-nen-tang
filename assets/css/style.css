@@ -453,3 +453,135 @@ header {
     width: 100%;
     
 }
+
+.app__education {
+    margin-top: 10px;
+}
+
+.app__education_title {
+    position: relative;
+    text-transform: uppercase;
+    color: #001373;
+    font-weight: 500;
+}
+
+.app__education .card {
+    border: none;
+
+}
+
+.card__img {
+
+}
+
+.card-img-top {
+    height: 195px;
+
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    line-height: 1.6rem;
+}
+
+.card-text:hover {
+    color: #000;
+}
+
+.app__education_content {
+   
+
+}
+.app__education_list {
+   
+
+}
+.app__education_items {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+
+}
+.app__education_links {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.app__education_detail {
+    margin-top: 50px;
+    text-align: end;
+}
+
+.app__education_detail_link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.app__education_detail_link:hover {
+    color: #001373;
+}
+
+.app__education_top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.app__education_title_event {
+    position: absolute;
+    font-size: 2.6rem;
+    left: 76%;
+}
+
+.app__education_content_right {
+    margin-top: 10px;
+}
+
+.card-img-top_third {
+    height: auto;
+}
+
+.app__student {
+    background: #efefef;
+}
+
+.app__student_title {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 2.6rem;
+    color: #001373;
+    text-transform: uppercase;
+}
+
+.card__student {
+    background-color: #efefef !important;
+    border: none !important;
+}
+
+.card__body__list {
+    font-size: 1.4rem;
+}
+
+.card__body_items {
+    
+}
+
+.card__body_link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.app__no_content {
+    height: 94px;
+    background-color: #fff;
+}

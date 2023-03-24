@@ -223,20 +223,26 @@ header {
     border-bottom: 1px solid #000;
     list-style: none;
     margin-top: 10px;
-    width: 100%;
     justify-content: space-between;
 }
 
 .menu__items {
-    padding: 20px 20px;
+    width: 12.5%;
     display: block;
     text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
 }
 
 .menu__items_icon {
     display: block !important;
     padding-bottom: 16px; 
-    font-size: 1.8rem;  
+    width: 100%;
+}
+
+.menu__items_img {
+    width: auto;
+    height: 25px;
 }
 
 .menu__items_link {
@@ -251,5 +257,199 @@ header {
 }
 
 .menu__items_link:hover {
-    opacity: 0.5 !important;
+    color: #23527c !important;
+}
+
+
+.app__infor {
+    margin-top: 40px;
+}
+
+.app__infor_first {
+
+}
+
+.app__infor_img {
+
+}
+
+.app__infor_img_link {
+
+}
+
+.app__infor_img_link img {
+    width: 100%;
+}
+
+.app__infor_body {
+    margin-top: 14px;
+}
+
+
+.app__infor_title {
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+
+.app__infor_title:hover {
+    color: #000 !important;
+}
+
+.app__infor_body img {
+    margin-top: 8px;
+}
+
+.app__infor_second {
+    height: 100%;
+}
+
+.app__infor_top {
+    display: flex;
+    justify-content: center;
+}
+
+.app__infor_btn {
+    width: 50%;
+    padding: 10px 0;
+    border: 1px solid #000;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #001373;
+
+}
+
+.app__infor_btn:last-child {
+    border: none;
+}
+
+.app__infor_btn:last-child:hover {
+    border: 1px solid #000;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: red;
+    background: #ccc;
+}
+
+
+.app__infor_btn_active {
+    color: red;
+    background: #fff;
+}
+
+.app__infor_middle {
+    margin-top: 18px;
+    
+}
+
+.app__infor_list {
+    padding-left: 30px;
+    margin-bottom: 0;
+    color: #457eb2;
+}
+
+.app__infor_items {
+    border-bottom: 1px solid #ccc;
+    text-align: justify;
+    padding: 6px 0;
+}
+
+.app__infor_items_links {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.app__infor_items img {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.app__infor_bottom {
+    text-align: end;
+    margin-top: 14px;
+    font-size: 1.6rem;
+}
+
+.app__infor_bottom_link {
+    color: #000;
+    text-decoration: none;
+}
+
+.app__infor_third {
+    
+}
+
+.app__infor_third_top {
+
+}
+
+.app__infor_third_btn {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 0;
+    border: none;
+    color: #001373;
+
+}
+
+.app__infor_third_bottom {
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.app__infor_third_list {
+    list-style: none;
+    padding: 4px 4px;
+}
+
+.app__infor_third_items {   
+    border-bottom: 1px dashed #ccc;
+    padding-top: 0.5rem;
+}
+
+.app__infor_third_items:last-child {
+    border-bottom: none;
+}
+.app__infor_third_link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #001373;
+}
+
+.app__infor_third_link_active {
+    color: rgb(2,139,255);
+}
+
+.app__infor_third_link:hover {
+    color: #23527c;
+}
+
+.app__banner {
+    background: #efefef;
+}
+
+.app__banner_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.app__banner a {
+    width: 32%;
+}
+
+.app__banner a img {
+    width: 100%;
+    
 }

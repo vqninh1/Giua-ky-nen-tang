@@ -287,7 +287,7 @@ header {
 
 
 .app__infor_title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     text-decoration: none;
     color: #000;
@@ -364,11 +364,12 @@ header {
     color: #000;
     text-decoration: none;
     font-size: 1.6rem;
+    letter-spacing: -0.1rem;    
 }
 
 .app__infor_items img {
     margin-top: -4px;
-    margin-left: -4px;
+    margin-left: -2px;
 }
 
 .app__infor_bottom {
@@ -463,6 +464,7 @@ header {
     text-transform: uppercase;
     color: #001373;
     font-weight: 500;
+    
 }
 
 .app__education .card {
@@ -584,4 +586,38 @@ header {
 .app__no_content {
     height: 94px;
     background-color: #fff;
+}
+
+footer {
+}
+
+.footer__top {
+    background: #004eaf;
+
+}
+
+.footer__copy_right {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer__social {
+    text-align: end;
+}
+
+.footer__social_link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+.footer__social_link:hover {
+    color: #fff;
+}
+
+.footer__social_icon {
+
 }

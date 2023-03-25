@@ -89,9 +89,77 @@
                                 </ul>
                             
                             </li>
-                            <li class="navbar__items"><a class="navbar__items_link" href="">tin tức & thông báo</a></li>
-                            <li class="navbar__items"><a class="navbar__items_link" href="">tuyển sinh</a></li>
-                            <li class="navbar__items"><a class="navbar__items_link" href="">đào tạo</a></li>
+                            <li class="navbar__items"><a class="navbar__items_link" href="">tin tức & thông báo</a>
+                                <ul class="navbar__dropdown">
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Tin tức
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Thông báo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__items"><a class="navbar__items_link" href="">tuyển sinh</a>
+                                <ul class="navbar__dropdown">
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Tuyển sinh đại học
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Tuyển sinh thạc sĩ
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Tuyển sinh Tiến sĩ
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Vừa học vừa làm
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__items"><a class="navbar__items_link" href="">đào tạo</a>
+                                <ul class="navbar__dropdown">
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Thạc sĩ
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Đại học chính quy
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Cam kết đảm bảo chất lượng đào tạo
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Thông báo, tin tức dhcq
+                                        </a>
+                                    </li>
+                                    <li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Tiến sĩ
+                                        </a>
+                                    </li><li class="navbar__dropdown_items">
+                                        <a class="navbar__dropdown_link" href="">
+                                            <i class="fa-solid fa-check-double"></i> Vừa làm vừa học
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="navbar__items"><a class="navbar__items_link" href="">nghiên cứu</a></li>
                             <li class="navbar__items"><a class="navbar__items_link" href="">đối ngoại</a></li>
                             <li class="navbar__items"><a class="navbar__items_link" href="">văn bản</a></li>
@@ -663,26 +731,39 @@
             <section class="footer__bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 ps-0 pe-0 pt-5 pb-5">
                             <a href="" class="footer__bottom_map">
-                                <img src="./assets/img/TLU-map.png" alt="tlu-map" srcset="">
+                                <img class="footer__bottom_img" src="./assets/img/TLU-map.png" alt="tlu-map" srcset="">
                             </a>
                         </div>
-                        <div class="col-8">
-                            <h5 class="footer__bottom_name">TRƯỜNG ĐẠI HỌC THỦY LỢI</h5>
-                            <h6 class="footer__bottom_infor">Địa chỉ: 175 Tây Sơn, Đống Đa, Hà Nội</h6>
+                        <div class="col-8 ps-0 pe-0 pt-5 pb-5 text-light">
+                            <h5 class="footer__bottom_name mb-4">TRƯỜNG ĐẠI HỌC THỦY LỢI</h5>
+                            <h6 class="footer__bottom_infor mt-4">Địa chỉ: 175 Tây Sơn, Đống Đa, Hà Nội</h6>
                             <h7 class="footer__bottom_infor">Điện thoại: (024) 38522201 - Fax: (024) 35633351</h7>
                             <h8 class="footer__bottom_infor">Email:
                                 <a href="" class="footer__bottom_link">
                                     phonghcth@tlu.edu.vn
                                 </a>
                             </h8>
-
                         </div>
                     </div>
                 </div>
             </section>
         </footer>
+
+        <div class="live__chat">
+            <a class="live__chat_link" href="">
+                
+                <span class="live__chat_help">
+                    Bạn cần hỗ trợ?
+                </span>
+                <span class="live__chat_bubble">
+                    1
+                </span>
+                <i class="live__chat_icon fa-brands fa-facebook-messenger">
+                </i>
+            </a>
+        </div>
     </main>
 
     <script src="./assets/bootstrap/js/bootstrap.js"></script>

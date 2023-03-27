@@ -202,6 +202,7 @@ header {
     padding-right: 48px;
     list-style: none;
     cursor: pointer;
+
 }
 
 .navbar__dropdown_items:last-child {
@@ -212,6 +213,9 @@ header {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .app__menu {
@@ -304,6 +308,7 @@ header {
 
 .app__infor_body img {
     margin-top: 8px;
+    display: block;
 }
 
 .app__infor_second {
@@ -715,6 +720,10 @@ footer {
     opacity: 0.8;
 }
 
+.app__infor_banner {
+    position: absolute;
+    pointer-events: none;
+}
 
 
 
